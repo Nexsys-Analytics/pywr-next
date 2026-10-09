@@ -2347,7 +2347,7 @@ dependencies = [
 [[package]]
 name = "pywr-v1-schema"
 version = "0.25.0"
-source = "git+https://github.com/Nexsys-Analytics/pywr-v1-schema?branch=feat%2Fjson-schema-export#21d2c58ae5097fc3b2788be97b447324efeee447"
+source = "git+https://github.com/Nexsys-Analytics/pywr-v1-schema?branch=feat%2Fjson-schema-export#818f908ae2a369df70574a3c7be55c91c29ab706"
 dependencies = [
  "jiff",
  "pywr-v1-schema-macros",
@@ -2362,7 +2362,7 @@ dependencies = [
 [[package]]
 name = "pywr-v1-schema-macros"
 version = "0.25.0"
-source = "git+https://github.com/Nexsys-Analytics/pywr-v1-schema?branch=feat%2Fjson-schema-export#21d2c58ae5097fc3b2788be97b447324efeee447"
+source = "git+https://github.com/Nexsys-Analytics/pywr-v1-schema?branch=feat%2Fjson-schema-export#818f908ae2a369df70574a3c7be55c91c29ab706"
 dependencies = [
  "quote",
  "syn 3.0.6",
