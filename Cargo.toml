@@ -60,6 +60,7 @@ heck = "0.5"
 hex = "0.4.3"
 interprocess = "2.4"
 jiff = { version = "0.2", features = ["serde"] }
+jsonschema = { version = "0.58", default-features = false }
 libc = "0.2"
 log = "0.4"
 md-5 = "0.11"
@@ -110,3 +111,6 @@ opt-level = 3
 [profile.profiling]
 inherits = "release"
 debug = "line-tables-only"
+# Fork-only: build against the unreleased json_schema module of pywr-v1-schema until a release carries it (pywr/pywr-v1-schema#300).
+[patch.crates-io]
+pywr-v1-schema = { git = "https://github.com/Nexsys-Analytics/pywr-v1-schema", branch = "feat/json-schema-export" }
