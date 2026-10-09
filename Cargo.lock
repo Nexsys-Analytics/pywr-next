@@ -2347,11 +2347,11 @@ dependencies = [
 [[package]]
 name = "pywr-v1-schema"
 version = "0.25.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "537f27adb2c17afb091174b4af4bec3b1ca80cc410ea4b1642e7e9eb647f8988"
+source = "git+https://github.com/Nexsys-Analytics/pywr-v1-schema?branch=feat%2Fjson-schema-export#21d2c58ae5097fc3b2788be97b447324efeee447"
 dependencies = [
  "jiff",
  "pywr-v1-schema-macros",
+ "schemars",
  "serde",
  "serde_json",
  "strum",
@@ -2362,8 +2362,7 @@ dependencies = [
 [[package]]
 name = "pywr-v1-schema-macros"
 version = "0.25.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "69190f1973029b7ae66802982c6e7bb33ce1937be110306b18f728e51c6f777e"
+source = "git+https://github.com/Nexsys-Analytics/pywr-v1-schema?branch=feat%2Fjson-schema-export#21d2c58ae5097fc3b2788be97b447324efeee447"
 dependencies = [
  "quote",
  "syn 3.0.6",

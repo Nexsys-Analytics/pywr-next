@@ -111,3 +111,6 @@ opt-level = 3
 [profile.profiling]
 inherits = "release"
 debug = "line-tables-only"
+# Fork-only: build against the unreleased json_schema module of pywr-v1-schema until a release carries it (pywr/pywr-v1-schema#300).
+[patch.crates-io]
+pywr-v1-schema = { git = "https://github.com/Nexsys-Analytics/pywr-v1-schema", branch = "feat/json-schema-export" }
